@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "../App.css";
 
-const API_URL = "https://fixflow-backend-kq7z.onrender.com";
+const API_URL = "";
 
 function IssueDetails() {
   const { id } = useParams();

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../App.css";
 
-const API_URL = "https://fixflow-backend-kq7z.onrender.com";
+const API_URL = "";
 
 function Register() {
   const navigate = useNavigate();

@@ -89,9 +89,22 @@ public class SecurityConfig {
 
                 .authorizeHttpRequests(auth -> auth
 
-                        // Public endpoints
+                        // Public frontend resources
                         .requestMatchers(
                                 "/",
+                                "/index.html",
+                                "/favicon.ico",
+                                "/icons.svg",
+                                "/assets/**",
+
+                                // React routes
+                                "/login",
+                                "/register",
+                                "/dashboard",
+                                "/issues/create",
+                                "/issues/**",
+
+                                // Public backend endpoints
                                 "/healthz",
                                 "/api/auth/**",
                                 "/error",

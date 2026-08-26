@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "https://fixflow-backend-kq7z.onrender.com";
+const API_URL = "";
 
 function Dashboard() {
   const navigate = useNavigate();
